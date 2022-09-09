@@ -1,0 +1,32 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  .avatar img {
+    display: none;
+  }
+
+  #job-info .container {
+    grid-template-columns: 300px 300px;
+    gap: 20px;
+  }
+  .cer-content {
+    display: block;
+  }
+  .cc-img {
+    width: 320px;
+  }
+  /* project */
+  .project-flex {
+    width: 200px;
+  }
+  .icon-lamp {
+    margin-left: 68px;
+  }
+  .project-flex span {
+    font-size: 13px;
+  }
+  td {
+    font-size: 13px;
+  }
+  .project-title h4 {
+    font-size: 14px;
+  }
+}
