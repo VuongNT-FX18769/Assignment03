@@ -53,3 +53,103 @@
     color: #5c7cfa;
   }
 }
+@media (min-width: 480px) and (max-width: 575px) {
+  /* banner */
+  .text-banner h1 {
+    font-size: 20px;
+  }
+  .text-banner span {
+    text-align: center;
+    padding: 50px;
+    font-size: 12px;
+  }
+  .avatar img {
+    display: none;
+  }
+  /* menu */
+  .nav-menu {
+    display: inline-grid;
+    height: 170px;
+    margin-left: 23px;
+  }
+  .nav-menu a {
+    border-left: none;
+    margin-left: -35px;
+    font-size: 13px;
+  }
+  .nav-menu .nav-border {
+    border-right: none;
+  }
+
+  #about-grid {
+    display: block;
+    width: 480px;
+    max-width: 575px;
+    margin-left: -40px;
+  }
+  #job-info .container {
+    max-width: 575px;
+  }
+  .container .box-grid {
+    width: 575px;
+    margin-left: 90px;
+  }
+  #job-info .container {
+    grid-template-columns: none;
+    max-width: 575px;
+    margin-left: -45px;
+  }
+  #target h3,
+  #personal-info h3 {
+    margin-left: 0px;
+  }
+  #target p {
+    font-size: 13px;
+  }
+  /* chung chi va dư an */
+  #certificate .container {
+    margin-left: -45px;
+  }
+  .cer-grid {
+    grid-template-columns: none;
+    max-width: 575px;
+    font-size: 20px;
+  }
+  .content {
+    font-size: 13px;
+    margin-left: -5px;
+  }
+  .content h5 {
+    font-size: 13px;
+    margin-left: -5px;
+  }
+  .cer-content-2 {
+    padding-top: 20px;
+    padding-left: 0px;
+    border-left: none;
+    border-top: 2px solid #f5dfcd;
+  }
+  .section-title {
+    margin-left: -35px;
+  }
+
+  .project-grid {
+    grid-template-columns: none;
+    margin-left: -45px;
+    max-width: 562px;
+  }
+  /* footer */
+  #footer a:link,
+  a:visited {
+    font-size: 13px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #5c7cfa;
+    max-width: 575px;
+    margin-left: -45px;
+  }
+  #footer .container {
+    text-align: block;
+    max-width: 575px;
+  }
+}
