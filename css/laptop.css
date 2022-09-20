@@ -8,9 +8,8 @@ body {
   font-family: "lato", sans-serif;
   line-height: 1.5;
   color: #1d3557;
-}
-.bg-grey {
-  background: #f7f7f7;
+  width: 100%;
+  height: auto;
 }
 
 section > .container {
@@ -49,13 +48,9 @@ section > .container {
   font-weight: bold;
 }
 /*phần menu*/
-/*#nav-bar {
-  text-align: center;
-  justify-content: center;
-  background-color: #333;
-  overflow: hidden;
-  display: block;/
-} */
+#nav-bar {
+  width: 100%;
+}
 
 .nav-menu {
   height: 65px;
@@ -299,7 +294,7 @@ a:active {
   border-right: 1px solid #bdc3c7;
 }
 .project-title h4 {
-  font-size: 18px;
+  font-size: 16px;
 }
 .porject-border {
   padding: 10px;
